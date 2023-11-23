@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.contr{
+    display: flex;
+    flex-direction: column;
+ height: 100%;
+ min-height: 100%;
+ width: 1400px;
+ height: auto !important;
+    margin: 0 auto 0 auto;
+}
+.header{
+    position: absolute;
+width: 1446px;
+height: 44px;
+left: 1px;
+top: 0px;
+
+background: #000000;
+   
+}
+.navbar{
+    max-width: 780px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}   
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+.navbar-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.navbar-text{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-contacts{
+    text-align: right;
+}
+.navbar-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+/* начинается все после головы */
+
+.blok{
+    margin: 20px 0 50px 220px;
+    
+}
+.sitename{
+    margin-bottom: 120px;
+    font: 20px Arial;
+}
+.container{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+footer{
+ 
+    padding: 30px 0;
+    width: 950px;
+    text-align: center;
+    position: absolute;
+    width: 1446px;
+    height: 100px;
+  
+    top: 3050px;
+    
+    background: #000000;
+}
+.blok{
+    margin: 20px 0 50px 220px;
+}
+.sitename{
+    margin: 10px;
+    font: 20px Arial;
+}
+nav{
+    display: flex;
+}
+nav a{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font: 15px Arial;
+}
+nav a:hover, nav a :active{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background:  rgb(199, 199, 199);
+}
+main h3{
+    font-weight: bolder;
+    font: 200px;
+}
+main p{
+    text-align: justify;
+    font: 15px Arial;
+    line-height: 30px;
+}
+.main_img-float{
+    width: 190px;
+    margin-right: 20px;
+    float: left;
+}
+.container1{
+    display: flex;
+    width: 400px;
+    
+}
+
+.left{
+    margin: 20px;
+   
+ 
+}
+.services_img{
+    width: 500px;
+    
+}
+.black{
+    font: 26px "Times New Romans";
+    text-align: left;
+    width: 300px;
+    height: 40px;
+    background-color: black;
+   
+}
+main{
+    width: 1440px;
+    padding: 2px;
+  
+}
+.red{
+    position: absolute;
+width: 384px;
+height: 107px;
+left: 120px;
+top: 220px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 120%;
+
+color: #1F1F1F;
+}
+
+.aboba{
+    position: absolute;
+width: 276px;
+height: 63px;
+left: 120px;
+top: 352px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+/* стиль для наборного текста */
+
+color: #444444;
+}
+main a:hover, main a:active{
+    color: #444444;
+    text-decoration-line: none;
+    text-decoration: aqua;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+.container21{
+    margin: 10px;
+    width: 300px;
+    height: 280px;
+    margin-left: 60px;
+   
+}
+.wrapper{
+    position: relative;
+width: 1446px;
+height: 3144px;
+
+background: #FCEFDC;
+    
+}
+.container3{
+position: absolute;
+width: 488px;
+height: 458px;
+left: 855px;
+top: 182px;
+}
+.container21{
+    width: 600px;
+}
+
+p{
+    font: 20px "Times New Romans";
+    margin: 10px;
+    line-height: 31px;
+}
+a:active{
+    background-color: rgb(82, 82, 69);
+}
+.red{
+    font-size: 47px;
+}
+.com{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.container65{
+    position: absolute;
+width: 494px;
+height: 276px;
+left: 120px;
+top: 500px;
+
+}
+.container66{
+    position: absolute;
+    width: 494px;
+    height: 276px;
+    left: 120px;
+    top: 200px;
+    
+}
+.pup{
+    position: absolute;
+width: 291.11px;
+height: 28px;
+left: 120px;
+top: 790px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 120%;
+/* identical to box height, or 28px */
+
+
+color: #FFFFFF;
+}
+.whil{
+    position: absolute;
+    width: 565.83px;
+    height: 103px;
+    left: 120px;
+top: 30px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 120px;
+/* or 300% */
+
+
+color: #ffffff;
+}
+.container44{
+    position: absolute;
+    width: 1440px;
+    height: 950px;
+    left:1PX;
+    top: 763px;
+    
+    background: #000000;
+}
+.block2{
+    background: #000000;
+}
+.container4{
+    position: absolute;
+width: 392.21px;
+height: 950px;
+left: 850px;
+top: 170px;
+}
+.sas{
+    position: absolute;
+width: 287.62px;
+height: 28px;
+left: 850px;
+top: 795px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 120%;
+/* identical to box height, or 28px */
+
+
+color: #ffffff;
+
+}
+
+.fan{
+    position: absolute;
+    width: 295px;
+    height: 116px;
+    left: 120px;
+    top: 1760px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    
+    color: #000000;
+    
+}
+.debil{
+    position: absolute;
+    width: 287px;
+    height: 63px;
+    left: 120px;
+    top: 1876px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #000000;
+    
+
+}
+.container5{
+    position: absolute;
+width: 388px;
+height: 312px;
+left: 509.36px;
+top: 1760px;
+}
+.rit{
+    width: 260px;
+height: 41px;
+
+font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.container6{
+/* Frame 4 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 22px 132px 22px 25px;
+gap: 123px;
+
+position: absolute;
+width: 367px;
+height: 60px;
+left: 1014px;
+top: 1760px;
+
+/* стиль импут */
+
+border: 1px solid #909090;
+}
+.container7{
+/* Frame 5 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 22px 25px;
+gap: 25px;
+
+position: absolute;
+width: 367px;
+height: 60px;
+left: 1014px;
+top: 1835px;
+
+border: 1px solid #757575;
+}
+.container8{
+/* Frame 6 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 22px 132px 22px 25px;
+gap: 25px;
+
+position: absolute;
+width: 367px;
+height: 60px;
+left: 1014px;
+top: 1910px;
+
+border: 1px solid #757575;
+}
+.container9{
+/* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 10px;
+gap: 10px;
+
+position: absolute;
+width: 367px;
+height: 60px;
+left: 1014px;
+top: 1985px;
+
+background: #000000;
+}
+.rot{
+    width: 260px;
+height: 41px;
+
+font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.container10{
+    position: absolute;
+width: 1446px;
+height: 32px;
+left: 1px;
+top: 2190px;
+
+background: #000000;
+}
+.fotn{
+    position: absolute;
+width: 105px;
+height: 46px;
+left: 120px;
+top: 2293px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.container11{
+    position: absolute;
+width: 536px;
+height: 492px;
+left: 784px;
+top: 2390px;
+}
+.rer{
+    position: absolute;
+    width: 680px;
+    height: 123px;
+    left: 104px;
+    top: 2508px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
